@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Kumbh sans';
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+ 
+.body-img--top{
+    position: absolute;
+    background-image: url('../assets/bg-pattern-top.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    top:-150px;
+    left: -300px;
+    transform: rotate(330deg);
+}
+
+.body-img--bottom {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: url('../assets/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -35px;
+    left: 188px; 
+    transform: rotate(350deg);
+}
+
+.main-file--container {
+    position: relative;
+    min-width: 300px;
+    width: 330px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.file--top {
+    width: 100%;
+    height: 140px;
+    background-image: url('../assets/top-pattern.svg');
+}
+
+.main-file--img{
+    position: relative;
+}
+
+.main-file--img img{
+    position: absolute;
+    left: calc(50% - 55px);
+    top: -50px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+}
+
+.file--bottom {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 75px;
+    line-height: 2.8rem;
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+}
+
+.file--bottom h1 {
+    color:hsl(229, 23%, 23%);
+}
+
+.file--bottom h1 span{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-left: 5px;
+}
+
+.file--bottom p {
+    font-weight: 400;
+    color:hsl(227, 10%, 46%);
+    font-size: 1.3rem;
+}
+
+.file--info {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: white;
+    color: hsl(229, 23%, 23%);
+}
+
+.file--info p {
+    margin-top: 5px;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    font-size: 1rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.file--info .file--info--followers h2 {
+    margin-left: 10px;
+}
+
+.file--info .file--info--likes p {
+    margin-left: 7px;
+}
+
+.file--info .file--info--photo h2 {
+    margin-left: 1px;
+}
