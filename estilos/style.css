@@ -11,18 +11,27 @@
 
 body {
     background-color: hsl(185, 75%, 39%);
+    height: 1080px;
+    overflow: hidden;
 }
  
+main {
+    position: relative;
+    min-width: 375px;
+    width: 375px;
+    margin: 0 auto;
+}
+
 .body-img--top{
     position: absolute;
     background-image: url('../assets/bg-pattern-top.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 500px;
-    height: 500px;
-    top:-150px;
-    left: -300px;
-    transform: rotate(330deg);
+    width: 700px;
+    height: 700px;
+    top:-510px;
+    left: -510px;
+    transform: rotate(320deg);
 }
 
 .body-img--bottom {
@@ -32,9 +41,9 @@ body {
     background-image: url('../assets/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    bottom: -35px;
-    left: 188px; 
-    transform: rotate(350deg);
+    bottom: -270px;
+    left: 200px; 
+    transform: rotate(300deg);
 }
 
 .main-file--container {
@@ -43,7 +52,7 @@ body {
     width: 330px;
     height: auto;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: calc(50% - 1px);
     border-radius: 15px;
     overflow: hidden;
 }

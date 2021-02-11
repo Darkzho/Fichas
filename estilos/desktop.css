@@ -1,0 +1,8 @@
+
+.body-img--bottom {
+    width: 700px;
+    height: 700px;
+    bottom: -565px;
+    left: 185px;
+    transform: rotate(360deg);
+}
